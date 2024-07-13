@@ -3,7 +3,7 @@
 # Misc
 # ---------------------------------------------------------------
 # `uint64(4096)`
-FIELD_ELEMENTS_PER_BLOB: 4096
+FIELD_ELEMENTS_PER_BLOB: 8
 # [customized]
 MAX_BLOB_COMMITMENTS_PER_BLOCK: 16
 # `uint64(6)`
