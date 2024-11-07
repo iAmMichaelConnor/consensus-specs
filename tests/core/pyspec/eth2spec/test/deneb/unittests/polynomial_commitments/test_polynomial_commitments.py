@@ -91,7 +91,10 @@ def test_verify_kzg_proof_impl_incorrect_proof(spec):
     commitment = spec.blob_to_kzg_commitment(blob)
     polynomial = spec.blob_to_polynomial(blob)
     proof, y = spec.compute_kzg_proof_impl(polynomial, x)
-    proof = bls_add_one(proof)
+
+    print("\n\n\n\nHI MUM!!!!\n\n\n\n")
+
+    # proof = bls_add_one(proof)
 
     assert not spec.verify_kzg_proof_impl(commitment, x, y, proof)
 
